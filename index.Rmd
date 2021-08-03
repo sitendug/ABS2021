@@ -144,7 +144,7 @@ glimpse(raw2)
 ```{r xaringan-themer1, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_duo_accent(
-  primary_color = "#DCAB6B",
+  primary_color = "#E8E9F3",
   secondary_color = "#774E24",
   header_color = "#9F0000",
   inverse_header_color= "#FFFFB3",
@@ -158,7 +158,7 @@ style_duo_accent(
 thematic::thematic_on(
   fg= "auto",
   accent= "#1c5253",
-  bg= "#fdf6e3",
+  bg= "#E8E9F3",
   font = "Work Sans"
 )
 # thematic_rmd()
@@ -517,7 +517,7 @@ ggbetweenstats(raw2bd, x = persrear, y = values, pairwise.display = "significant
 
 ---
 class:left
-##  Enclosure usage- Spread of participation index (SPI)
+##  Enclosure usage
 .panelset[
 .panel[.panel-name[Enclosure use]
 
